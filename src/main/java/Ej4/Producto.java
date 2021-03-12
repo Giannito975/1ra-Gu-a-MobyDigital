@@ -8,7 +8,7 @@ public class Producto {
     private float precioUnitario;
     private int stockActual;
     private String codigo;
-
+    CodigoRandom codigoRandom;
 
     //Metodo constructor
     public Producto(String nombre, String marca, float precioUnitario, int stockActual, String codigo) {
@@ -16,7 +16,7 @@ public class Producto {
         this.marca = marca;
         this.precioUnitario = precioUnitario;
         this.stockActual = stockActual;
-        this.codigo = codigo;
+        this.codigo = codigoRandom.generateRandomString(10);
     }
 
     //Getters & Setters
