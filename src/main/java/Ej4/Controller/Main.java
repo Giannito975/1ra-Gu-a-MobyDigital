@@ -1,4 +1,4 @@
-package Ej4;
+package Ej4.Controller;
 
 public class Main {
 

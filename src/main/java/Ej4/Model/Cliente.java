@@ -1,4 +1,6 @@
-package Ej4;
+package Ej4.Model;
+
+import Ej4.CodigoRandom;
 
 import java.util.Date;
 

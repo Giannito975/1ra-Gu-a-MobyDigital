@@ -1,8 +1,10 @@
-package Ej4;
+package Ej4.Model;
+
+import Ej4.Model.Cliente;
 
 import java.util.Date;
 
-public class ClienteConsumidorFinal extends Cliente{
+public class ClienteConsumidorFinal extends Cliente {
 
     //Constructor
     public ClienteConsumidorFinal(String nombre, String apellido, Date fechaNacimiento, String telefono, String dni, String codigo, float descuento){

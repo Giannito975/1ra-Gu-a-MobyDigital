@@ -1,6 +1,12 @@
-package Ej4;
+package Ej4.Model;
 
-public class Producto {
+import Ej4.IABM;
+import Ej4.CodigoRandom;
+
+import java.util.ArrayList;
+
+
+public class Producto implements IABM{
 
     //Atributos
     private String nombre;
@@ -9,6 +15,10 @@ public class Producto {
     private int stockActual;
     private String codigo;
     CodigoRandom codigoRandom;
+
+    private ArrayList <Producto>  contenedor;
+    contenedor = new ArrayList<Producto>;
+
 
     //Metodo constructor
     public Producto(String nombre, String marca, float precioUnitario, int stockActual, String codigo) {
